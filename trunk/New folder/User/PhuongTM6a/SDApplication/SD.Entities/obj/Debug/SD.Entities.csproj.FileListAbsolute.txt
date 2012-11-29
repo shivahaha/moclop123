@@ -1,0 +1,25 @@
+D:\Template\SDApplication\SD.Entities\bin\Debug\SD.Entities.dll
+D:\Template\SDApplication\SD.Entities\bin\Debug\SD.Entities.pdb
+D:\Template\SDApplication\SD.Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Template\SDApplication\SD.Entities\obj\Debug\SD.Entities.dll
+D:\Template\SDApplication\SD.Entities\obj\Debug\SD.Entities.pdb
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Entities\bin\Debug\SD.Entities.dll
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Entities\bin\Debug\SD.Entities.pdb
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Entities\obj\Debug\SD.Entities.dll
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Entities\obj\Debug\SD.Entities.pdb
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Entities\bin\Debug\SD.Entities.dll
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Entities\bin\Debug\SD.Entities.pdb
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Entities\obj\Debug\SD.Entities.dll
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Entities\obj\Debug\SD.Entities.pdb
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Entities\bin\Debug\SD.Entities.dll
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Entities\bin\Debug\SD.Entities.pdb
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Entities\obj\Debug\ResolveAssemblyReference.cache
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Entities\obj\Debug\SD.Entities.dll
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Entities\obj\Debug\SD.Entities.pdb
+C:\Users\Tran Minh Phuong\Desktop\SDApplication\SD.Entities\bin\Debug\SD.Entities.dll
+C:\Users\Tran Minh Phuong\Desktop\SDApplication\SD.Entities\bin\Debug\SD.Entities.pdb
+C:\Users\Tran Minh Phuong\Desktop\SDApplication\SD.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tran Minh Phuong\Desktop\SDApplication\SD.Entities\obj\Debug\SD.Entities.dll
+C:\Users\Tran Minh Phuong\Desktop\SDApplication\SD.Entities\obj\Debug\SD.Entities.pdb
