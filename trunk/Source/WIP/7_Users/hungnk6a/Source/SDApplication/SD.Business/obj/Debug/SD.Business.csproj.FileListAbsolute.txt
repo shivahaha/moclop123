@@ -1,0 +1,44 @@
+D:\Template\SDApplication\SD.Business\bin\Debug\SD.Business.dll
+D:\Template\SDApplication\SD.Business\bin\Debug\SD.Business.pdb
+D:\Template\SDApplication\SD.Business\bin\Debug\SD.Commons.dll
+D:\Template\SDApplication\SD.Business\bin\Debug\SD.DataAccess.dll
+D:\Template\SDApplication\SD.Business\bin\Debug\SD.Entities.dll
+D:\Template\SDApplication\SD.Business\bin\Debug\SD.DataAccess.pdb
+D:\Template\SDApplication\SD.Business\bin\Debug\SD.Entities.pdb
+D:\Template\SDApplication\SD.Business\bin\Debug\SD.Commons.pdb
+D:\Template\SDApplication\SD.Business\obj\Debug\ResolveAssemblyReference.cache
+D:\Template\SDApplication\SD.Business\obj\Debug\SD.Business.dll
+D:\Template\SDApplication\SD.Business\obj\Debug\SD.Business.pdb
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\bin\Debug\SD.Business.dll
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\bin\Debug\SD.Business.pdb
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\bin\Debug\SD.Commons.dll
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\bin\Debug\SD.DataAccess.dll
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\bin\Debug\SD.Entities.dll
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\bin\Debug\SD.DataAccess.pdb
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\bin\Debug\SD.Entities.pdb
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\bin\Debug\SD.Commons.pdb
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\obj\Debug\ResolveAssemblyReference.cache
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\obj\Debug\SD.Business.dll
+D:\TRN\Fresher\Materials\Coursewares\MckPrj\v2\Coursewares\AB-SD (.NET)\Design\SDApplication\SD.Business\obj\Debug\SD.Business.pdb
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\bin\Debug\SD.Business.dll
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\bin\Debug\SD.Business.pdb
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\bin\Debug\SD.Commons.dll
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\bin\Debug\SD.DataAccess.dll
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\bin\Debug\SD.Entities.dll
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\bin\Debug\SD.DataAccess.pdb
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\bin\Debug\SD.Entities.pdb
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\bin\Debug\SD.Commons.pdb
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\obj\Debug\SD.Business.dll
+C:\Documents and Settings\hungnk6a\My Documents\Visual Studio 2008\Projects\SDApplication\SD.Business\obj\Debug\SD.Business.pdb
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\bin\Debug\SD.Business.dll
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\bin\Debug\SD.Business.pdb
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\bin\Debug\SD.Commons.dll
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\bin\Debug\SD.DataAccess.dll
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\bin\Debug\SD.Entities.dll
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\bin\Debug\SD.DataAccess.pdb
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\bin\Debug\SD.Entities.pdb
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\bin\Debug\SD.Commons.pdb
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\obj\Debug\ResolveAssemblyReference.cache
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\obj\Debug\SD.Business.dll
+F:\Hungnk\MOCK\SVN-MOCK\WIP\7_Users\hungnk6a\Source\SDApplication\SD.Business\obj\Debug\SD.Business.pdb

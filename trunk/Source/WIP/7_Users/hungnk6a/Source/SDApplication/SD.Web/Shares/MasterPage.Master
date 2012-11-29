@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="../Css/Style.css" media="screen" />
+    <title>Services Directory</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <div id="header">
+            <h1>
+                Services Directory</h1>
+        </div>
+        <!-- end header -->
+        <div id="pic">
+        </div>
+        <!-- end main pic - this is a background image-->
+        <ul id="menu">
+            <li><a href="../Default.aspx">Home</a></li>
+            <li><a href="../Views/Login.aspx">Login</a></li>
+        </ul>
+        <!-- end main menu -->
+        <!-- all the right hand content begins here-->
+        <div class="clear">
+        </div>
+        <div id="rightside">
+            <asp:ContentPlaceHolder ID="rightsidehere" runat="server" />
+        </div>
+        <div id="leftside">
+            <div class="leftdata">
+                <div id="leftnav">
+                    <ul>
+                        <li><a href="../Views/Program/ListProgramme.aspx">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li> 
+                            <li><a href="#">5</a></li> 
+                            <li><a href="#">6</a></li> 
+                            <li><a href="#">7</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
