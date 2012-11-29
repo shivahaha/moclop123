@@ -1,0 +1,133 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/f:Default.aspx" caret="472" fromTop="12" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Properties/f:AssemblyInfo.cs" caret="1351" fromTop="15" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Controls/f:WebUserControl1.ascx" caret="133" fromTop="1" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/f:Login.aspx.designer.cs" caret="620" fromTop="13" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:MarkIn-activeProgramme.aspx.cs" caret="71" fromTop="3" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AddProgramme.aspx.cs" caret="961" fromTop="21" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:MarkIn-activeProgramme.aspx" caret="100" fromTop="0" />
+      <File id="C47332D7-A7B6-416D-9873-1697B8D4AC6F/d:Helpers/f:CryptographyHelper.cs" caret="0" fromTop="0" />
+      <File id="C47332D7-A7B6-416D-9873-1697B8D4AC6F/d:Helpers/f:DateTimeHelpers.cs" caret="0" fromTop="0" />
+      <File id="C47332D7-A7B6-416D-9873-1697B8D4AC6F/d:Helpers/f:SQLHelper.cs" caret="637" fromTop="0" />
+      <File id="0A58A259-3722-498A-84A2-09BD6BDE9A84/f:GovOfficeRegionBus.cs" caret="534" fromTop="0" />
+      <File id="C47332D7-A7B6-416D-9873-1697B8D4AC6F/d:Constants/f:DBSchemas.cs" caret="860" fromTop="20" />
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:GovOfficeRegionDao.cs" caret="691" fromTop="19" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AddProgramme.aspx" caret="0" fromTop="0" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AmendProgramme.aspx" caret="475" fromTop="14" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AmendProgramme.aspx.cs" caret="1439" fromTop="30" />
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:ProgrammeDAO.cs" caret="1447" fromTop="13" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx.designer.cs" caret="1807" fromTop="17" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx.cs" caret="668" fromTop="24" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Shares/f:MasterPage.Master.designer.cs" caret="503" fromTop="10" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="419" fromTop="11" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Css/f:Style.css" caret="2563" fromTop="14" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/f:Login.aspx" caret="375" fromTop="6" />
+      <File id="A96BB8AA-553A-436B-889A-FB885BC1BE59/f:User.cs" caret="373" fromTop="17" />
+      <File id="0A58A259-3722-498A-84A2-09BD6BDE9A84/f:SDManager.cs" caret="381" fromTop="14" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/f:Login.aspx.cs" caret="379" fromTop="16" />
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:SqlConnectionTool.cs" caret="704" fromTop="21" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/f:Web.config" caret="2155" fromTop="16" />
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:UserDAO.cs" caret="893" fromTop="12" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Shares/f:MasterPage.Master" caret="1740" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:UserDAO.cs" caret="1324" fromTop="37" />
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:UserDAO.cs" caret="157" fromTop="6" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="0" fromTop="15" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx.cs" caret="1146" fromTop="18" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx.cs" caret="1146" fromTop="27" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx.cs" caret="1146" fromTop="14" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx.cs" caret="2112" fromTop="14" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AmendProgramme.aspx.cs" caret="1451" fromTop="12" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AmendProgramme.aspx.cs" caret="309" fromTop="4" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AmendProgramme.aspx.cs" caret="895" fromTop="18" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AmendProgramme.aspx.cs" caret="1217" fromTop="20" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AmendProgramme.aspx.cs" caret="1052" fromTop="13" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:AmendProgramme.aspx.cs" caret="616" fromTop="12" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="0" fromTop="5" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="0" fromTop="26" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx.cs" caret="1146" fromTop="27" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx.cs" caret="643" fromTop="22" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="1319" fromTop="25" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="1301" fromTop="22" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="177" fromTop="1" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="284" fromTop="4" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Views/d:Program/f:ListProgramme.aspx" caret="1319" fromTop="17" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Css/f:Style.css" caret="2547" fromTop="19" />
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:UserDAO.cs" caret="801" fromTop="16" />
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:UserDAO.cs" caret="200" fromTop="7" />
+      <File id="0A58A259-3722-498A-84A2-09BD6BDE9A84/f:SDManager.cs" caret="516" fromTop="18" />
+      <File id="0A58A259-3722-498A-84A2-09BD6BDE9A84/f:SDManager.cs" caret="334" fromTop="12" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/f:Web.config" caret="2087" fromTop="16" />
+      <File id="0049227C-0E12-4E87-81CE-1577D3FFE86D/f:UserDAO.cs" caret="348" fromTop="15" />
+      <File id="15884A0D-A0F6-4583-8E01-DDBFEEB8E753/d:Shares/f:MasterPage.Master" caret="1730" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.10\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="AspCodeCompletionContext">
+      <Item value="MasterPage`0" priority="27" />
+      <Item value="." priority="6" />
+      <Item value=".." priority="104" />
+      <Item value="Css" priority="13" />
+      <Item value="Style.css" priority="13" />
+      <Item value="images" priority="6" />
+      <Item value="wrapper-bg.jpg" priority="6" />
+      <Item value="Shares" priority="20" />
+      <Item value="MasterPage.Master" priority="20" />
+      <Item value="_Default`0" priority="13" />
+      <Item value="Page`0" priority="6" />
+      <Item value="Default.aspx" priority="13" />
+      <Item value="Views" priority="20" />
+      <Item value="Login.aspx" priority="13" />
+      <Item value="Inherits" priority="23" />
+      <Item value="Presentation" priority="6" />
+      <Item value="Web" priority="13" />
+      <Item value="UI" priority="20" />
+      <Item value="System" priority="6" />
+      <Item value="rightsidehere" priority="6" />
+      <Item value="a" priority="6" />
+      <Item value="AddProgramme.aspx.cs" priority="6" />
+      <Item value="AddProgramme.aspx" priority="6" />
+      <Item value="AddProgramme`0" priority="6" />
+      <Item value="style3" priority="6" />
+      <Item value="Program" priority="6" />
+      <Item value="ListProgramme.aspx" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="border-radius" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SD.Commons.Helpers.SqlHelper">
+      <Item value="ExecuteReader`0" priority="22" />
+      <Item value="ExecuteNonQuery`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="sealed" priority="24" />
+      <Item value="using" priority="59" />
+      <Item value="SD" priority="59" />
+      <Item value="DataAccess" priority="26" />
+      <Item value="Commons" priority="26" />
+      <Item value="var" priority="123" />
+      <Item value="IsValidLogin`0" priority="25" />
+      <Item value="ConnectionString" priority="25" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

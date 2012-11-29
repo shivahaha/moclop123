@@ -1,0 +1,11 @@
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI\LookUpGUI\bin\LookUpGUI.dll
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI\LookUpGUI\bin\LookUpGUI.pdb
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI\LookUpGUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI\LookUpGUI\obj\Debug\LookUpGUI.dll
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI\LookUpGUI\obj\Debug\LookUpGUI.pdb
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI1\LookUpGUI\bin\LookUpGUI.dll
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI1\LookUpGUI\bin\LookUpGUI.pdb
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI1\LookUpGUI\bin\Utilities.dll
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI1\LookUpGUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI1\LookUpGUI\obj\Debug\LookUpGUI.dll
+C:\Documents and Settings\phucvs6a\Desktop\LookUpGUI1\LookUpGUI\obj\Debug\LookUpGUI.pdb
