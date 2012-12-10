@@ -1,0 +1,6 @@
+C:\Documents and Settings\phucvs6a\Desktop\Lookup\Lookup\bin\Lookup.dll
+C:\Documents and Settings\phucvs6a\Desktop\Lookup\Lookup\bin\Lookup.pdb
+C:\Documents and Settings\phucvs6a\Desktop\Lookup\Lookup\bin\Utilities.dll
+C:\Documents and Settings\phucvs6a\Desktop\Lookup\Lookup\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\phucvs6a\Desktop\Lookup\Lookup\obj\Debug\Lookup.dll
+C:\Documents and Settings\phucvs6a\Desktop\Lookup\Lookup\obj\Debug\Lookup.pdb

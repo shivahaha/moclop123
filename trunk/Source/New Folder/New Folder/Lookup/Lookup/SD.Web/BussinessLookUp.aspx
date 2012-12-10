@@ -1,0 +1,98 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BussinessLookUp.aspx.cs" Inherits="LookUpGUI.SD.Web.BussinessLookUp" %>
+
+<%@ Register assembly="Utilities" namespace="Utilities" tagprefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+ <script type ="text/javascript" >
+		function rtTOB()
+		{
+//		
+			window.returnValue = document.getElementById('HiddenField1').value;
+			window.close();
+     
+		}
+		function noneTOB() {
+			window.returnValue = document.getElementById('HiddenField2').value;
+			window.close();
+		}
+		function pcloseTOB() {
+			window.returnValue = 'close';
+			window.close();
+		}
+    </script>
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <asp:Panel ID="Panel1" runat="server" Height="475px" Width="638px">
+            <asp:Label ID="Label1" runat="server" Text="BussinessLookUp"></asp:Label>
+            <br />
+            <asp:Panel ID="Panel2" runat="server" BackColor="#FF6600" Height="68px" 
+                style="margin-top: 0px" Width="632px">
+                <br />
+                <asp:Label ID="Label2" runat="server" Text="Bussiness:"></asp:Label>
+                <asp:TextBox ID="txtBussiness" runat="server"></asp:TextBox>
+                &nbsp;<asp:Label ID="Label3" runat="server" Text="SicCode"></asp:Label>
+                :<asp:TextBox ID="txtSic" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="BtnSearch" runat="server" onclick="BtnSearch_Click" 
+                    Text="Search" />
+                &nbsp;<asp:Button ID="btnNone" runat="server" Text="None" />
+                &nbsp;<asp:Button ID="BtnClear" runat="server" onclick="BtnClear_Click1" 
+                    Text="Clear" />
+                <br />
+                <asp:Panel ID="Panel3" runat="server" Height="260px" Width="633px">
+                    <br />
+                    <asp:GridView ID="GVBussiness" runat="server" CellPadding="4" 
+                        ForeColor="#333333" GridLines="None" 
+                        onpageindexchanged="GVBussiness_PageIndexChanged" 
+                        onpageindexchanging="GVBussiness_PageIndexChanging" 
+                        onselectedindexchanged="GVBussiness_SelectedIndexChanged" 
+                        onselectedindexchanging="GVBussiness_SelectedIndexChanging">
+                        <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                        <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+                        <Columns>
+                            <asp:TemplateField>
+                                <ItemTemplate>
+                                   
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                        </Columns>
+                        <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+                        <EmptyDataTemplate>
+                            <cc1:GridViewRowSelector ID="GridViewRowSelector1" runat="server" />
+                        </EmptyDataTemplate>
+                        <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+                        <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                        <AlternatingRowStyle BackColor="White" />
+                    </asp:GridView>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <asp:Button ID="bntSelect" runat="server" Text="Select" />
+                    &nbsp;<asp:Button ID="btnClose1" runat="server" onclick="Page_Load" Text="Close" />
+                </asp:Panel>
+            </asp:Panel>
+        </asp:Panel>
+    
+    </div>
+    </form>
+</body>
+</html>
