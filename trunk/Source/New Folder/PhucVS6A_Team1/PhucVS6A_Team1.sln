@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhucVS6A_Team1", "PhucVS6A_Team1\PhucVS6A_Team1.csproj", "{8E2BD7D5-4D99-4D7C-A3E3-A0F6D993D34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Details", "Details\Details.csproj", "{6F4B4C58-5297-4143-A733-21397163885B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E2BD7D5-4D99-4D7C-A3E3-A0F6D993D34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2BD7D5-4D99-4D7C-A3E3-A0F6D993D34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2BD7D5-4D99-4D7C-A3E3-A0F6D993D34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2BD7D5-4D99-4D7C-A3E3-A0F6D993D34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4B4C58-5297-4143-A733-21397163885B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4B4C58-5297-4143-A733-21397163885B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4B4C58-5297-4143-A733-21397163885B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4B4C58-5297-4143-A733-21397163885B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
