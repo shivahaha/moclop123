@@ -1,0 +1,5 @@
+C:\Documents and Settings\phucvs6a\Desktop\PhucVS6A_Team1\Details\bin\Details.dll
+C:\Documents and Settings\phucvs6a\Desktop\PhucVS6A_Team1\Details\bin\Details.pdb
+C:\Documents and Settings\phucvs6a\Desktop\PhucVS6A_Team1\Details\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\phucvs6a\Desktop\PhucVS6A_Team1\Details\obj\Debug\Details.dll
+C:\Documents and Settings\phucvs6a\Desktop\PhucVS6A_Team1\Details\obj\Debug\Details.pdb
