@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06A9BE08-61DC-4B47-86C7-7594AC3C9078}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SampleProject</RootNamespace>
+    <AssemblyName>SampleProject</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\ServicesDirectory.mdf" />
+    <Content Include="App_Data\ServicesDirectory_log.ldf">
+      <DependentUpon>ServicesDirectory.mdf</DependentUpon>
+    </Content>
+    <Content Include="Css\images\banner.jpg" />
+    <Content Include="Css\images\bg.gif" />
+    <Content Include="Css\images\bigphoto.gif" />
+    <Content Include="Css\images\header.jpg" />
+    <Content Include="Css\images\image.gif" />
+    <Content Include="Css\images\menuarrow.gif" />
+    <Content Include="Css\images\menuarrowhover.gif" />
+    <Content Include="Css\images\thumb.jpg" />
+    <Content Include="Css\images\tile.gif" />
+    <Content Include="Css\Menu.css" />
+    <Content Include="Css\StyleSheet1.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Manage.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="UserControls\Address\Details.ascx" />
+    <Content Include="UserControls\Address\ViewAlls.ascx" />
+    <Content Include="UserControls\Commons\Footer.ascx" />
+    <Content Include="UserControls\Commons\Header.ascx" />
+    <Content Include="UserControls\Commons\LeftMenu.ascx" />
+    <Content Include="UserControls\Commons\TopMenu.ascx" />
+    <Content Include="UserControls\Contact\Details.ascx" />
+    <Content Include="UserControls\Contact\ViewAlls.ascx" />
+    <Content Include="UserControls\Country\Details.ascx" />
+    <Content Include="UserControls\Country\ViewAlls.ascx" />
+    <Content Include="UserControls\County\Details.ascx" />
+    <Content Include="UserControls\County\ViewAlls.ascx" />
+    <Content Include="UserControls\Department\Details.ascx" />
+    <Content Include="UserControls\Department\ViewAlls.ascx" />
+    <Content Include="UserControls\Directory\Details.ascx" />
+    <Content Include="UserControls\Directory\ViewAlls.ascx" />
+    <Content Include="UserControls\GovermentOfficeRegion\Details.ascx" />
+    <Content Include="UserControls\GovermentOfficeRegion\ViewAlls.ascx" />
+    <Content Include="UserControls\Organization\Details.ascx" />
+    <Content Include="UserControls\Organization\ViewAlls.ascx" />
+    <Content Include="UserControls\Premises\Details.ascx" />
+    <Content Include="UserControls\Premises\ViewAlls.ascx" />
+    <Content Include="UserControls\Programme\Details.ascx" />
+    <Content Include="UserControls\Programme\ViewAlls.ascx" />
+    <Content Include="UserControls\Service\Details.ascx" />
+    <Content Include="UserControls\Service\ViewAlls.ascx" />
+    <Content Include="UserControls\SupportingMaterials\Details.ascx" />
+    <Content Include="UserControls\SupportingMaterials\ViewAlls.ascx" />
+    <Content Include="UserControls\Team\Details.ascx" />
+    <Content Include="UserControls\Team\ViewAlls.ascx" />
+    <Content Include="UserControls\TrustDistrict\Details.ascx" />
+    <Content Include="UserControls\TrustDistrict\ViewAlls.ascx" />
+    <Content Include="UserControls\TrustRegion\Details.ascx" />
+    <Content Include="UserControls\TrustRegion\ViewAlls.ascx" />
+    <Content Include="UserControls\Users\Details.ascx" />
+    <Content Include="UserControls\Users\ViewAlls.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Biz\AddressBiz.cs" />
+    <Compile Include="Biz\BaseBiz.cs" />
+    <Compile Include="Biz\BusinessTypeBiz.cs" />
+    <Compile Include="Biz\ContactBiz.cs" />
+    <Compile Include="Biz\CountiesBiz.cs" />
+    <Compile Include="Biz\CountriesBiz.cs" />
+    <Compile Include="Biz\DepartmentBiz.cs" />
+    <Compile Include="Biz\DirectoratesBiz.cs" />
+    <Compile Include="Biz\GeographyBiz.cs" />
+    <Compile Include="Biz\GovermentOfficRegionBiz.cs" />
+    <Compile Include="Biz\PremisesBiz.cs" />
+    <Compile Include="Biz\ProgrammeBiz.cs" />
+    <Compile Include="Biz\OrganizationBiz.cs" />
+    <Compile Include="Biz\ServiceBiz.cs" />
+    <Compile Include="Biz\SupportinMaterialsBiz.cs" />
+    <Compile Include="Biz\TeamBiz.cs" />
+    <Compile Include="Biz\TrustDistrictBiz.cs" />
+    <Compile Include="Biz\TrustRegionBiz.cs" />
+    <Compile Include="Biz\UserBiz.cs" />
+    <Compile Include="Commons\Constants.cs" />
+    <Compile Include="Commons\Utilities.cs" />
+    <Compile Include="DAO\AddressDAO.cs" />
+    <Compile Include="DAO\BaseDAO.cs" />
+    <Compile Include="DAO\BusinessType.cs" />
+    <Compile Include="DAO\ContactDAO.cs" />
+    <Compile Include="DAO\CountiesDAO.cs" />
+    <Compile Include="DAO\CountriesDAO.cs" />
+    <Compile Include="DAO\DepartmentsDAO.cs" />
+    <Compile Include="DAO\DirectoryDAO.cs" />
+    <Compile Include="DAO\GovermentOfficeRegionDAO.cs" />
+    <Compile Include="DAO\OrganizationDAO.cs" />
+    <Compile Include="DAO\PremisesDAO.cs" />
+    <Compile Include="DAO\ProgramDAO.cs" />
+    <Compile Include="DAO\ServiceDAO.cs" />
+    <Compile Include="DAO\SupportingMaterialsDAO.cs" />
+    <Compile Include="DAO\TeamDAO.cs" />
+    <Compile Include="DAO\TownDAO.cs" />
+    <Compile Include="DAO\TrustDistrictsDAO.cs" />
+    <Compile Include="DAO\TrustRegionsDAO.cs" />
+    <Compile Include="DAO\UserDAO.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\AddressEntity.cs" />
+    <Compile Include="Entity\BusinessTypeEntity.cs" />
+    <Compile Include="Entity\ContactEntity.cs" />
+    <Compile Include="Entity\CountiesEntity.cs" />
+    <Compile Include="Entity\CountriesEntity.cs" />
+    <Compile Include="Entity\DepartmentsEntity.cs" />
+    <Compile Include="Entity\DirectoryEntity.cs" />
+    <Compile Include="Entity\GovermentOfficeRegionEntity.cs" />
+    <Compile Include="Entity\OrganizationEntity.cs" />
+    <Compile Include="Entity\PremisesEntity.cs" />
+    <Compile Include="Entity\ProgrammeEntity.cs" />
+    <Compile Include="Entity\ServiceEntity.cs" />
+    <Compile Include="Entity\SupportingMaterialsEntity.cs" />
+    <Compile Include="Entity\TeamEntity.cs" />
+    <Compile Include="Entity\TownEntity.cs" />
+    <Compile Include="Entity\TrustDistrictsEntity.cs" />
+    <Compile Include="Entity\TrustRegionsEntity.cs" />
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\BaseEntity.cs" />
+    <Compile Include="Entity\UserEntity.cs" />
+    <Compile Include="Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Address\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Address\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Address\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Address\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Commons\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Commons\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Commons\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Commons\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Commons\LeftMenu.ascx.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Commons\LeftMenu.ascx.designer.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Commons\TopMenu.ascx.cs">
+      <DependentUpon>TopMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Commons\TopMenu.ascx.designer.cs">
+      <DependentUpon>TopMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Contact\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Contact\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Contact\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Contact\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Country\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Country\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Country\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Country\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\County\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\County\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\County\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\County\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Department\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Department\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Department\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Department\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Directory\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Directory\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Directory\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Directory\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GovermentOfficeRegion\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GovermentOfficeRegion\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GovermentOfficeRegion\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GovermentOfficeRegion\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Organization\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Organization\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Organization\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Organization\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Premises\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Premises\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Premises\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Premises\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Programme\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Programme\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Programme\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Programme\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Service\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Service\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Service\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Service\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SupportingMaterials\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SupportingMaterials\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SupportingMaterials\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SupportingMaterials\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Team\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Team\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Team\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Team\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TrustDistrict\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\TrustDistrict\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TrustDistrict\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\TrustDistrict\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TrustRegion\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\TrustRegion\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TrustRegion\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\TrustRegion\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Users\Details.ascx.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Users\Details.ascx.designer.cs">
+      <DependentUpon>Details.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Users\ViewAlls.ascx.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Users\ViewAlls.ascx.designer.cs">
+      <DependentUpon>ViewAlls.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Css\images\Thumbs.db" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12382</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

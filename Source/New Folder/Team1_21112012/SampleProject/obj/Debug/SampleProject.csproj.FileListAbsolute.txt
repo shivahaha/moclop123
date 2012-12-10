@@ -1,0 +1,5 @@
+C:\Users\Tran Minh Phuong\Desktop\SampleProject\bin\SampleProject.dll
+C:\Users\Tran Minh Phuong\Desktop\SampleProject\bin\SampleProject.pdb
+C:\Users\Tran Minh Phuong\Desktop\SampleProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tran Minh Phuong\Desktop\SampleProject\obj\Debug\SampleProject.dll
+C:\Users\Tran Minh Phuong\Desktop\SampleProject\obj\Debug\SampleProject.pdb

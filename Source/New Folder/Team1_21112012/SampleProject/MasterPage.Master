@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="SampleProject.MasterPage" %>
+
+<%@ Register src="UserControls/Commons/Header.ascx" tagname="Header" tagprefix="uc1" %>
+<%@ Register src="UserControls/Commons/TopMenu.ascx" tagname="TopMenu" tagprefix="uc2" %>
+<%@ Register src="UserControls/Commons/Footer.ascx" tagname="Footer" tagprefix="uc3" %>
+<%@ Register src="UserControls/Commons/LeftMenu.ascx" tagname="LeftMenu" tagprefix="uc4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link href="Css/StyleSheet1.css" rel="stylesheet" type="text/css"  media="screen"/>
+    <link href="Css/Menu.css" rel="stylesheet" type="text/css"  media="screen"/>
+    <title>Services Directory</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <div id="header">
+            <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Default.aspx" runat="server"><h1>
+                Services Directory</h1></asp:HyperLink>
+        </div>
+        <!-- end header -->
+        <div id="pic">
+        </div>
+        <!-- end main pic - this is a background image-->
+        <ul id="menu">
+            <li>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl = "~/Default.aspx">Home</asp:HyperLink>
+            </li>
+             <li>
+                 <asp:LinkButton ID="LinkButton1" runat="server" >Logout</asp:LinkButton>             
+            </li>
+            
+        </ul>
+        <!-- end main menu -->
+        <!-- all the right hand content begins here-->
+        <div class="clear">
+        </div>
+        <div id="rightside">
+            <asp:ContentPlaceHolder ID="rightsidehere" runat="server" />
+        </div>
+
+        <div id="leftside">
+            <div class="leftdata">
+               <div id="mainNav">
+                            <ul id="nav">
+                            <li><span>Contact</span>
+                            <ul>
+                            <li>
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UserControls/Users/ViewAlls.ascx">List Contact</asp:HyperLink>
+                                </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl=" #">Add Contact</asp:HyperLink>                     
+                            </li>                           
+                            </ul>
+                            </li>
+                            <li><span>Programe</span>
+                            <ul>
+                            <li>
+                            <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="#">List Program</asp:HyperLink>
+                            </li>
+                            <li>
+                            <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="#">Add Program</asp:HyperLink>
+                            </li>                            
+                            <li>
+                            <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="#">MarkIn-activeProgramme</asp:HyperLink>                            
+                            </li>
+                            </ul>
+                            </li>
+                            <li><span>GovOfficeRegion</span>
+                            <ul>
+                             <li>
+                            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Views/GovernmentOfficeRegion/GovernmentOfficeRegionList.aspx">Government Office Region List</asp:HyperLink>                            
+                            </li>                            
+                            </ul>
+                            </li>
+                            
+                            <li><span>Team</span>
+                            <ul>  
+                            <li><a href="/">Sub 1</a></li>                          
+                            <li><a href="/">Sub 2</a></li>
+                            <li><a href="/">Sub 3</a></li>
+                            <li><a href="/">Sub 4</a></li>
+                            <li><a href="/">Sub 5</a></li>
+                            <li><a href="/">Sub 6</a></li>
+                            </ul>
+                            </li>
+                            
+                            </ul>
+                            </div>            
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
