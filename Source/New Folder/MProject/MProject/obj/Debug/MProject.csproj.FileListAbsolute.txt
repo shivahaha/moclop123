@@ -1,0 +1,10 @@
+C:\Documents and Settings\phuongtm6a\My Documents\Visual Studio 2008\Projects\MProject\MProject\bin\MProject.dll
+C:\Documents and Settings\phuongtm6a\My Documents\Visual Studio 2008\Projects\MProject\MProject\bin\MProject.pdb
+C:\Documents and Settings\phuongtm6a\My Documents\Visual Studio 2008\Projects\MProject\MProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\phuongtm6a\My Documents\Visual Studio 2008\Projects\MProject\MProject\obj\Debug\MProject.dll
+C:\Documents and Settings\phuongtm6a\My Documents\Visual Studio 2008\Projects\MProject\MProject\obj\Debug\MProject.pdb
+C:\Users\Tran Minh Phuong\Desktop\MProject\MProject\bin\MProject.dll
+C:\Users\Tran Minh Phuong\Desktop\MProject\MProject\bin\MProject.pdb
+C:\Users\Tran Minh Phuong\Desktop\MProject\MProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tran Minh Phuong\Desktop\MProject\MProject\obj\Debug\MProject.dll
+C:\Users\Tran Minh Phuong\Desktop\MProject\MProject\obj\Debug\MProject.pdb
